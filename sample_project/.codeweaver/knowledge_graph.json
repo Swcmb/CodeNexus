@@ -1,0 +1,3605 @@
+{
+  "nodes": [
+    {
+      "id": "node_256f1ffc",
+      "label": "project_root",
+      "type": "variable"
+    },
+    {
+      "id": "node_a141fc35",
+      "label": "ECommerceSystem",
+      "type": "class"
+    },
+    {
+      "id": "node_8c1fe563",
+      "label": "__init__",
+      "type": "function"
+    },
+    {
+      "id": "node_aa788c6f",
+      "label": "create_sample_data",
+      "type": "function"
+    },
+    {
+      "id": "node_755c9b0e",
+      "label": "admin_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_717cc355",
+      "label": "user_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_d3c5cf86",
+      "label": "products_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_e29f421b",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_e9c1ae8a",
+      "label": "demo_user_operations",
+      "type": "function"
+    },
+    {
+      "id": "node_820b1713",
+      "label": "login_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_457d8cbf",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_b0df439a",
+      "label": "token",
+      "type": "variable"
+    },
+    {
+      "id": "node_4a44a5d6",
+      "label": "user_info",
+      "type": "variable"
+    },
+    {
+      "id": "node_6f18cd16",
+      "label": "update_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_bf66755c",
+      "label": "demo_product_operations",
+      "type": "function"
+    },
+    {
+      "id": "node_7afcc314",
+      "label": "all_products",
+      "type": "variable"
+    },
+    {
+      "id": "node_5c73e415",
+      "label": "search_results",
+      "type": "variable"
+    },
+    {
+      "id": "node_f26195e6",
+      "label": "low_stock",
+      "type": "variable"
+    },
+    {
+      "id": "node_a44672f4",
+      "label": "demo_order_operations",
+      "type": "function"
+    },
+    {
+      "id": "node_d0ee97c1",
+      "label": "order_items",
+      "type": "variable"
+    },
+    {
+      "id": "node_419040e1",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_73c9b5ad",
+      "label": "order_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_ebce72dd",
+      "label": "order",
+      "type": "variable"
+    },
+    {
+      "id": "node_a73134ed",
+      "label": "order_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_abd35571",
+      "label": "status_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_ba8fc89b",
+      "label": "payment_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_0e2286b9",
+      "label": "demo_statistics",
+      "type": "function"
+    },
+    {
+      "id": "node_b0b909db",
+      "label": "all_users",
+      "type": "variable"
+    },
+    {
+      "id": "node_1ec803bb",
+      "label": "all_products",
+      "type": "variable"
+    },
+    {
+      "id": "node_9690559d",
+      "label": "order_stats",
+      "type": "variable"
+    },
+    {
+      "id": "node_5ab6ec6c",
+      "label": "stats",
+      "type": "variable"
+    },
+    {
+      "id": "node_964e3063",
+      "label": "db_health",
+      "type": "variable"
+    },
+    {
+      "id": "node_58cfb434",
+      "label": "run_demo",
+      "type": "function"
+    },
+    {
+      "id": "node_c3ff9db1",
+      "label": "products",
+      "type": "variable"
+    },
+    {
+      "id": "node_dd081bc2",
+      "label": "order_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_10821a83",
+      "label": "main",
+      "type": "function"
+    },
+    {
+      "id": "node_0a2f61ad",
+      "label": "system",
+      "type": "variable"
+    },
+    {
+      "id": "node_4281d9a2",
+      "label": "project_root",
+      "type": "variable"
+    },
+    {
+      "id": "node_1d7b8133",
+      "label": "TestOrderService",
+      "type": "class"
+    },
+    {
+      "id": "node_3ae1163e",
+      "label": "setUp",
+      "type": "function"
+    },
+    {
+      "id": "node_fe5d86d5",
+      "label": "user_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_eb810f75",
+      "label": "product_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_1b07fa17",
+      "label": "tearDown",
+      "type": "function"
+    },
+    {
+      "id": "node_25cf5d46",
+      "label": "test_create_order_success",
+      "type": "function"
+    },
+    {
+      "id": "node_98869695",
+      "label": "items_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_4223bd48",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_a2315dc2",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_a5093d88",
+      "label": "test_create_order_empty_items",
+      "type": "function"
+    },
+    {
+      "id": "node_2c5f4bd1",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_bcae401e",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_b2b58a7d",
+      "label": "test_create_order_no_shipping_address",
+      "type": "function"
+    },
+    {
+      "id": "node_bd962662",
+      "label": "items_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_a4eaaa7a",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_f471a2c8",
+      "label": "test_create_order_product_not_found",
+      "type": "function"
+    },
+    {
+      "id": "node_c92668e0",
+      "label": "items_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_0670144d",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_64d5f650",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_53ce4ece",
+      "label": "test_create_order_insufficient_stock",
+      "type": "function"
+    },
+    {
+      "id": "node_4513f9a7",
+      "label": "items_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_aec4aae6",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_180529e4",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_2e5b382d",
+      "label": "test_get_order_by_id",
+      "type": "function"
+    },
+    {
+      "id": "node_1e1ce057",
+      "label": "items_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_1140b9b8",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_49689f52",
+      "label": "create_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_af810fdc",
+      "label": "order_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_a2d905a9",
+      "label": "order",
+      "type": "variable"
+    },
+    {
+      "id": "node_adf48004",
+      "label": "test_get_order_by_number",
+      "type": "function"
+    },
+    {
+      "id": "node_868a4906",
+      "label": "items_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_2b022f37",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_5943f911",
+      "label": "create_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_bde67187",
+      "label": "order_number",
+      "type": "variable"
+    },
+    {
+      "id": "node_d0f0d9c2",
+      "label": "order",
+      "type": "variable"
+    },
+    {
+      "id": "node_88039491",
+      "label": "test_get_user_orders",
+      "type": "function"
+    },
+    {
+      "id": "node_2e82be36",
+      "label": "items_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_dcc4d79d",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_3853ca16",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_e74019d2",
+      "label": "test_update_order_status",
+      "type": "function"
+    },
+    {
+      "id": "node_f7c4ac7a",
+      "label": "items_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_a55e8665",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_693f9489",
+      "label": "create_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_030c480d",
+      "label": "order_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_cf2f9c4b",
+      "label": "update_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_697c970f",
+      "label": "test_update_order_status_invalid_transition",
+      "type": "function"
+    },
+    {
+      "id": "node_2e5dfeef",
+      "label": "items_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_d300c1c4",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_e09f21e8",
+      "label": "create_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_7746f920",
+      "label": "order_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_5ca185fa",
+      "label": "update_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_e622a4c3",
+      "label": "test_cancel_order",
+      "type": "function"
+    },
+    {
+      "id": "node_46c2cfb4",
+      "label": "items_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_3f110910",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_e5f5231a",
+      "label": "create_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_a92f8406",
+      "label": "order_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_29554938",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_fbea6e38",
+      "label": "original_stock",
+      "type": "variable"
+    },
+    {
+      "id": "node_754a2428",
+      "label": "cancel_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_391da4e4",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_0ea6fc4d",
+      "label": "test_cancel_order_not_allowed",
+      "type": "function"
+    },
+    {
+      "id": "node_b5ec705c",
+      "label": "items_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_5b9ece06",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_ae3182a9",
+      "label": "create_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_ead4a431",
+      "label": "order_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_2f943230",
+      "label": "cancel_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_5768f675",
+      "label": "test_apply_discount",
+      "type": "function"
+    },
+    {
+      "id": "node_5c04cc15",
+      "label": "items_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_115f1a2b",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_de821776",
+      "label": "create_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_2e8a5792",
+      "label": "order_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_1980c688",
+      "label": "original_total",
+      "type": "variable"
+    },
+    {
+      "id": "node_3295493f",
+      "label": "discount_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_d52a63c4",
+      "label": "test_get_order_statistics",
+      "type": "function"
+    },
+    {
+      "id": "node_94ca295a",
+      "label": "items_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_88097a03",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_36d8daee",
+      "label": "stats_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_e9e7937e",
+      "label": "stats",
+      "type": "variable"
+    },
+    {
+      "id": "node_aecb00aa",
+      "label": "project_root",
+      "type": "variable"
+    },
+    {
+      "id": "node_5f7d3067",
+      "label": "TestUserService",
+      "type": "class"
+    },
+    {
+      "id": "node_00968047",
+      "label": "setUp",
+      "type": "function"
+    },
+    {
+      "id": "node_52e1f29c",
+      "label": "tearDown",
+      "type": "function"
+    },
+    {
+      "id": "node_1072bbc7",
+      "label": "test_register_user_success",
+      "type": "function"
+    },
+    {
+      "id": "node_ad2a112d",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_fd56eb74",
+      "label": "test_register_user_duplicate_username",
+      "type": "function"
+    },
+    {
+      "id": "node_d9b45058",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_95760a7e",
+      "label": "test_register_user_duplicate_email",
+      "type": "function"
+    },
+    {
+      "id": "node_1c26aa62",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_f9ed010e",
+      "label": "test_register_user_invalid_input",
+      "type": "function"
+    },
+    {
+      "id": "node_1264857e",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_ac5a74f6",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_87398232",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_79a3bd50",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_02d3fac9",
+      "label": "test_authenticate_user_success",
+      "type": "function"
+    },
+    {
+      "id": "node_857595de",
+      "label": "register_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_00a6b160",
+      "label": "auth_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_c65de630",
+      "label": "test_authenticate_user_wrong_password",
+      "type": "function"
+    },
+    {
+      "id": "node_ff9852fe",
+      "label": "auth_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_4c3edf23",
+      "label": "test_authenticate_user_not_found",
+      "type": "function"
+    },
+    {
+      "id": "node_2d9f1da0",
+      "label": "auth_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_f103cf4d",
+      "label": "test_get_user_by_id",
+      "type": "function"
+    },
+    {
+      "id": "node_2641250c",
+      "label": "register_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_99fb6150",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_bccca328",
+      "label": "user",
+      "type": "variable"
+    },
+    {
+      "id": "node_b85f9b9b",
+      "label": "test_get_user_by_id_not_found",
+      "type": "function"
+    },
+    {
+      "id": "node_99e1006c",
+      "label": "user",
+      "type": "variable"
+    },
+    {
+      "id": "node_342c2235",
+      "label": "test_update_user",
+      "type": "function"
+    },
+    {
+      "id": "node_8aace040",
+      "label": "register_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_2858912d",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_379bf0aa",
+      "label": "update_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_54f53c99",
+      "label": "test_update_user_not_found",
+      "type": "function"
+    },
+    {
+      "id": "node_2c16d885",
+      "label": "update_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_66e2c25d",
+      "label": "test_change_password",
+      "type": "function"
+    },
+    {
+      "id": "node_4961f9c9",
+      "label": "register_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_0c6b8f16",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_32a6aacf",
+      "label": "change_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_98ead431",
+      "label": "auth_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_7dc3d0bb",
+      "label": "auth_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_f663e719",
+      "label": "test_change_password_wrong_old_password",
+      "type": "function"
+    },
+    {
+      "id": "node_2d146c64",
+      "label": "register_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_4772766b",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_ee5a4047",
+      "label": "change_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_22195d37",
+      "label": "test_deactivate_user",
+      "type": "function"
+    },
+    {
+      "id": "node_8279fd65",
+      "label": "register_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_ce0201c8",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_74a24902",
+      "label": "deactivate_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_9e8d5c65",
+      "label": "auth_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_d483f64e",
+      "label": "test_activate_user",
+      "type": "function"
+    },
+    {
+      "id": "node_714582d3",
+      "label": "register_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_b23a3585",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_70886ac6",
+      "label": "activate_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_55570fcb",
+      "label": "auth_result",
+      "type": "variable"
+    },
+    {
+      "id": "node_2dda80c9",
+      "label": "test_search_users",
+      "type": "function"
+    },
+    {
+      "id": "node_d8b7e0ac",
+      "label": "users_data",
+      "type": "variable"
+    },
+    {
+      "id": "node_0f0d986d",
+      "label": "results",
+      "type": "variable"
+    },
+    {
+      "id": "node_2be545a3",
+      "label": "results",
+      "type": "variable"
+    },
+    {
+      "id": "node_67118304",
+      "label": "ProductAPI",
+      "type": "class"
+    },
+    {
+      "id": "node_9c87ef57",
+      "label": "__init__",
+      "type": "function"
+    },
+    {
+      "id": "node_066e6edf",
+      "label": "create_product",
+      "type": "function"
+    },
+    {
+      "id": "node_c4ac0e9e",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_791d79cc",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_8c0b36f8",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_463db5f9",
+      "label": "get_product",
+      "type": "function"
+    },
+    {
+      "id": "node_3d6cb711",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_55662995",
+      "label": "update_product",
+      "type": "function"
+    },
+    {
+      "id": "node_7ec9093f",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_4a15b230",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_6b248796",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_850fe5b5",
+      "label": "delete_product",
+      "type": "function"
+    },
+    {
+      "id": "node_5eab4d3e",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_0c6570bf",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_5b08ae0f",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_ba34f8d6",
+      "label": "get_products",
+      "type": "function"
+    },
+    {
+      "id": "node_31077b28",
+      "label": "product_category",
+      "type": "variable"
+    },
+    {
+      "id": "node_d28ffb73",
+      "label": "products",
+      "type": "variable"
+    },
+    {
+      "id": "node_eeb1248d",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_a7468ff0",
+      "label": "get_available_products",
+      "type": "function"
+    },
+    {
+      "id": "node_85c8c290",
+      "label": "products",
+      "type": "variable"
+    },
+    {
+      "id": "node_5f2ac724",
+      "label": "search_products",
+      "type": "function"
+    },
+    {
+      "id": "node_c9950493",
+      "label": "products",
+      "type": "variable"
+    },
+    {
+      "id": "node_385732b9",
+      "label": "update_stock",
+      "type": "function"
+    },
+    {
+      "id": "node_546f749e",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_ba1a629f",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_42164eee",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_696af4ae",
+      "label": "add_product_tag",
+      "type": "function"
+    },
+    {
+      "id": "node_85b26f55",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_75bcdda8",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_4f50ba76",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_7184e8f8",
+      "label": "get_low_stock_products",
+      "type": "function"
+    },
+    {
+      "id": "node_6e222ac4",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_2910597c",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_dcb536bf",
+      "label": "products",
+      "type": "variable"
+    },
+    {
+      "id": "node_4c75c732",
+      "label": "UserAPI",
+      "type": "class"
+    },
+    {
+      "id": "node_d39e0761",
+      "label": "__init__",
+      "type": "function"
+    },
+    {
+      "id": "node_ecacc2a9",
+      "label": "register",
+      "type": "function"
+    },
+    {
+      "id": "node_3637582f",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_e17579b8",
+      "label": "login",
+      "type": "function"
+    },
+    {
+      "id": "node_a07330a5",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_efcf0987",
+      "label": "get_profile",
+      "type": "function"
+    },
+    {
+      "id": "node_2e6f0ec5",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_c0caf1bd",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_203a8d7d",
+      "label": "user",
+      "type": "variable"
+    },
+    {
+      "id": "node_cec0e4bb",
+      "label": "update_profile",
+      "type": "function"
+    },
+    {
+      "id": "node_114345d5",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_14a62d87",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_f87459a3",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_69120068",
+      "label": "change_password",
+      "type": "function"
+    },
+    {
+      "id": "node_63447040",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_d38a2619",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_d7315743",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_86d8da86",
+      "label": "get_users",
+      "type": "function"
+    },
+    {
+      "id": "node_375d574b",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_7c120103",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_3086e4a6",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_c4b6ac42",
+      "label": "search_users",
+      "type": "function"
+    },
+    {
+      "id": "node_989cc86f",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_c3e4d698",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_c24e89be",
+      "label": "users",
+      "type": "variable"
+    },
+    {
+      "id": "node_f7341d4a",
+      "label": "deactivate_user",
+      "type": "function"
+    },
+    {
+      "id": "node_de4b3a8d",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_0cc34a76",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_b902231f",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_51aa7cb9",
+      "label": "__all__",
+      "type": "variable"
+    },
+    {
+      "id": "node_d5c15935",
+      "label": "OrderStatus",
+      "type": "class"
+    },
+    {
+      "id": "node_9b3489ba",
+      "label": "PENDING",
+      "type": "variable"
+    },
+    {
+      "id": "node_057fb273",
+      "label": "CONFIRMED",
+      "type": "variable"
+    },
+    {
+      "id": "node_b1f0aacc",
+      "label": "PROCESSING",
+      "type": "variable"
+    },
+    {
+      "id": "node_46b2f311",
+      "label": "SHIPPED",
+      "type": "variable"
+    },
+    {
+      "id": "node_eadd40c6",
+      "label": "DELIVERED",
+      "type": "variable"
+    },
+    {
+      "id": "node_0bad7528",
+      "label": "CANCELLED",
+      "type": "variable"
+    },
+    {
+      "id": "node_aa0d5d29",
+      "label": "REFUNDED",
+      "type": "variable"
+    },
+    {
+      "id": "node_b1de9dd0",
+      "label": "PaymentStatus",
+      "type": "class"
+    },
+    {
+      "id": "node_e5b3587a",
+      "label": "PENDING",
+      "type": "variable"
+    },
+    {
+      "id": "node_34ff836d",
+      "label": "PROCESSING",
+      "type": "variable"
+    },
+    {
+      "id": "node_6cb005a2",
+      "label": "COMPLETED",
+      "type": "variable"
+    },
+    {
+      "id": "node_cc60f926",
+      "label": "FAILED",
+      "type": "variable"
+    },
+    {
+      "id": "node_c6241640",
+      "label": "REFUNDED",
+      "type": "variable"
+    },
+    {
+      "id": "node_941afb8e",
+      "label": "OrderItem",
+      "type": "class"
+    },
+    {
+      "id": "node_9f04815b",
+      "label": "id",
+      "type": "variable"
+    },
+    {
+      "id": "node_02528c97",
+      "label": "product_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_c3e32148",
+      "label": "product_name",
+      "type": "variable"
+    },
+    {
+      "id": "node_3b7b59f8",
+      "label": "product_sku",
+      "type": "variable"
+    },
+    {
+      "id": "node_d6b25fc3",
+      "label": "quantity",
+      "type": "variable"
+    },
+    {
+      "id": "node_cb03709b",
+      "label": "unit_price",
+      "type": "variable"
+    },
+    {
+      "id": "node_492c004b",
+      "label": "total_price",
+      "type": "variable"
+    },
+    {
+      "id": "node_9e2fb1be",
+      "label": "__post_init__",
+      "type": "function"
+    },
+    {
+      "id": "node_4b2356ba",
+      "label": "to_dict",
+      "type": "function"
+    },
+    {
+      "id": "node_55aeb5f8",
+      "label": "update_quantity",
+      "type": "function"
+    },
+    {
+      "id": "node_cc1a3204",
+      "label": "new_quantity",
+      "type": "variable"
+    },
+    {
+      "id": "node_85a4307a",
+      "label": "ShippingAddress",
+      "type": "class"
+    },
+    {
+      "id": "node_c0147db3",
+      "label": "street",
+      "type": "variable"
+    },
+    {
+      "id": "node_8327893a",
+      "label": "city",
+      "type": "variable"
+    },
+    {
+      "id": "node_da1d8e2c",
+      "label": "state",
+      "type": "variable"
+    },
+    {
+      "id": "node_a8397a17",
+      "label": "postal_code",
+      "type": "variable"
+    },
+    {
+      "id": "node_7fca904b",
+      "label": "country",
+      "type": "variable"
+    },
+    {
+      "id": "node_1f71a4fd",
+      "label": "phone",
+      "type": "variable"
+    },
+    {
+      "id": "node_ea672d54",
+      "label": "to_dict",
+      "type": "function"
+    },
+    {
+      "id": "node_0611c063",
+      "label": "get_full_address",
+      "type": "function"
+    },
+    {
+      "id": "node_88a0b10b",
+      "label": "Order",
+      "type": "class"
+    },
+    {
+      "id": "node_7bbb88cf",
+      "label": "id",
+      "type": "variable"
+    },
+    {
+      "id": "node_e6749504",
+      "label": "order_number",
+      "type": "variable"
+    },
+    {
+      "id": "node_c587faa3",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_c2f7046b",
+      "label": "items",
+      "type": "variable"
+    },
+    {
+      "id": "node_667551bf",
+      "label": "status",
+      "type": "variable"
+    },
+    {
+      "id": "node_acf1bc50",
+      "label": "payment_status",
+      "type": "variable"
+    },
+    {
+      "id": "node_e7e73726",
+      "label": "subtotal",
+      "type": "variable"
+    },
+    {
+      "id": "node_405d082b",
+      "label": "tax_amount",
+      "type": "variable"
+    },
+    {
+      "id": "node_b45b087a",
+      "label": "shipping_cost",
+      "type": "variable"
+    },
+    {
+      "id": "node_9a14592a",
+      "label": "discount_amount",
+      "type": "variable"
+    },
+    {
+      "id": "node_31e9d389",
+      "label": "total_amount",
+      "type": "variable"
+    },
+    {
+      "id": "node_f2f7d507",
+      "label": "currency",
+      "type": "variable"
+    },
+    {
+      "id": "node_e0b0019b",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_30bbb8f6",
+      "label": "notes",
+      "type": "variable"
+    },
+    {
+      "id": "node_d3885c04",
+      "label": "created_at",
+      "type": "variable"
+    },
+    {
+      "id": "node_9bb3c0b4",
+      "label": "updated_at",
+      "type": "variable"
+    },
+    {
+      "id": "node_de6fb8ae",
+      "label": "shipped_at",
+      "type": "variable"
+    },
+    {
+      "id": "node_e33bf2d0",
+      "label": "delivered_at",
+      "type": "variable"
+    },
+    {
+      "id": "node_fc07641d",
+      "label": "__post_init__",
+      "type": "function"
+    },
+    {
+      "id": "node_41f694b9",
+      "label": "to_dict",
+      "type": "function"
+    },
+    {
+      "id": "node_cbee084b",
+      "label": "add_item",
+      "type": "function"
+    },
+    {
+      "id": "node_f6d12bce",
+      "label": "item",
+      "type": "variable"
+    },
+    {
+      "id": "node_f85610a4",
+      "label": "remove_item",
+      "type": "function"
+    },
+    {
+      "id": "node_0e7a568d",
+      "label": "calculate_totals",
+      "type": "function"
+    },
+    {
+      "id": "node_1c3f0e46",
+      "label": "update_status",
+      "type": "function"
+    },
+    {
+      "id": "node_7e809312",
+      "label": "status",
+      "type": "variable"
+    },
+    {
+      "id": "node_8254b565",
+      "label": "update_payment_status",
+      "type": "function"
+    },
+    {
+      "id": "node_97278764",
+      "label": "payment_status",
+      "type": "variable"
+    },
+    {
+      "id": "node_e7b7fadc",
+      "label": "can_be_cancelled",
+      "type": "function"
+    },
+    {
+      "id": "node_e582cbe0",
+      "label": "is_paid",
+      "type": "function"
+    },
+    {
+      "id": "node_342de9b9",
+      "label": "is_completed",
+      "type": "function"
+    },
+    {
+      "id": "node_730c452a",
+      "label": "apply_discount",
+      "type": "function"
+    },
+    {
+      "id": "node_ecb212b7",
+      "label": "discount_amount",
+      "type": "variable"
+    },
+    {
+      "id": "node_559bac82",
+      "label": "set_shipping_address",
+      "type": "function"
+    },
+    {
+      "id": "node_17ca5f65",
+      "label": "address",
+      "type": "variable"
+    },
+    {
+      "id": "node_6ad4fa93",
+      "label": "OrderFactory",
+      "type": "class"
+    },
+    {
+      "id": "node_1ebbd3dd",
+      "label": "create_order",
+      "type": "function"
+    },
+    {
+      "id": "node_3701b5ad",
+      "label": "create_order_with_items",
+      "type": "function"
+    },
+    {
+      "id": "node_9d567979",
+      "label": "order",
+      "type": "variable"
+    },
+    {
+      "id": "node_7ea8f507",
+      "label": "OrderRepository",
+      "type": "class"
+    },
+    {
+      "id": "node_75606309",
+      "label": "__init__",
+      "type": "function"
+    },
+    {
+      "id": "node_664108ce",
+      "label": "save",
+      "type": "function"
+    },
+    {
+      "id": "node_227a926c",
+      "label": "order",
+      "type": "variable"
+    },
+    {
+      "id": "node_38f9b43c",
+      "label": "find_by_id",
+      "type": "function"
+    },
+    {
+      "id": "node_7e683fb3",
+      "label": "find_by_order_number",
+      "type": "function"
+    },
+    {
+      "id": "node_23c7ca79",
+      "label": "order_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_790e938b",
+      "label": "find_by_user_id",
+      "type": "function"
+    },
+    {
+      "id": "node_142fb4da",
+      "label": "find_by_status",
+      "type": "function"
+    },
+    {
+      "id": "node_214df001",
+      "label": "find_pending_orders",
+      "type": "function"
+    },
+    {
+      "id": "node_66534939",
+      "label": "find_shipped_orders",
+      "type": "function"
+    },
+    {
+      "id": "node_5945f85c",
+      "label": "find_all",
+      "type": "function"
+    },
+    {
+      "id": "node_0125b1f8",
+      "label": "delete",
+      "type": "function"
+    },
+    {
+      "id": "node_354a1fdc",
+      "label": "order",
+      "type": "variable"
+    },
+    {
+      "id": "node_ec560fbe",
+      "label": "count",
+      "type": "function"
+    },
+    {
+      "id": "node_bf91300c",
+      "label": "get_revenue_by_period",
+      "type": "function"
+    },
+    {
+      "id": "node_fff542ec",
+      "label": "get_orders_by_date_range",
+      "type": "function"
+    },
+    {
+      "id": "node_a1b074da",
+      "label": "ProductStatus",
+      "type": "class"
+    },
+    {
+      "id": "node_1042b80e",
+      "label": "ACTIVE",
+      "type": "variable"
+    },
+    {
+      "id": "node_54bba047",
+      "label": "INACTIVE",
+      "type": "variable"
+    },
+    {
+      "id": "node_bb3552f5",
+      "label": "OUT_OF_STOCK",
+      "type": "variable"
+    },
+    {
+      "id": "node_f8ec2f6f",
+      "label": "DISCONTINUED",
+      "type": "variable"
+    },
+    {
+      "id": "node_007dabe9",
+      "label": "ProductCategory",
+      "type": "class"
+    },
+    {
+      "id": "node_f4e82009",
+      "label": "ELECTRONICS",
+      "type": "variable"
+    },
+    {
+      "id": "node_f3936f8d",
+      "label": "CLOTHING",
+      "type": "variable"
+    },
+    {
+      "id": "node_0d683950",
+      "label": "BOOKS",
+      "type": "variable"
+    },
+    {
+      "id": "node_28c544f3",
+      "label": "HOME",
+      "type": "variable"
+    },
+    {
+      "id": "node_821fdc75",
+      "label": "SPORTS",
+      "type": "variable"
+    },
+    {
+      "id": "node_1b6c659e",
+      "label": "TOYS",
+      "type": "variable"
+    },
+    {
+      "id": "node_04b7bb32",
+      "label": "Product",
+      "type": "class"
+    },
+    {
+      "id": "node_5463e266",
+      "label": "id",
+      "type": "variable"
+    },
+    {
+      "id": "node_bc2d5a9b",
+      "label": "name",
+      "type": "variable"
+    },
+    {
+      "id": "node_1225d9fd",
+      "label": "description",
+      "type": "variable"
+    },
+    {
+      "id": "node_f3887ca1",
+      "label": "price",
+      "type": "variable"
+    },
+    {
+      "id": "node_bbd89d38",
+      "label": "category",
+      "type": "variable"
+    },
+    {
+      "id": "node_944c6b27",
+      "label": "status",
+      "type": "variable"
+    },
+    {
+      "id": "node_4c950465",
+      "label": "stock_quantity",
+      "type": "variable"
+    },
+    {
+      "id": "node_907359e3",
+      "label": "sku",
+      "type": "variable"
+    },
+    {
+      "id": "node_1ea89f22",
+      "label": "brand",
+      "type": "variable"
+    },
+    {
+      "id": "node_226f3c4d",
+      "label": "weight",
+      "type": "variable"
+    },
+    {
+      "id": "node_f9635bdc",
+      "label": "dimensions",
+      "type": "variable"
+    },
+    {
+      "id": "node_1368343c",
+      "label": "images",
+      "type": "variable"
+    },
+    {
+      "id": "node_de147ca4",
+      "label": "tags",
+      "type": "variable"
+    },
+    {
+      "id": "node_e5d5ce7b",
+      "label": "created_at",
+      "type": "variable"
+    },
+    {
+      "id": "node_98c75c32",
+      "label": "updated_at",
+      "type": "variable"
+    },
+    {
+      "id": "node_209c0779",
+      "label": "to_dict",
+      "type": "function"
+    },
+    {
+      "id": "node_68d0deaf",
+      "label": "is_available",
+      "type": "function"
+    },
+    {
+      "id": "node_b2266c42",
+      "label": "reduce_stock",
+      "type": "function"
+    },
+    {
+      "id": "node_bd3ad8a6",
+      "label": "increase_stock",
+      "type": "function"
+    },
+    {
+      "id": "node_45428911",
+      "label": "update_status",
+      "type": "function"
+    },
+    {
+      "id": "node_87d671ca",
+      "label": "status",
+      "type": "variable"
+    },
+    {
+      "id": "node_5aa5f12a",
+      "label": "add_tag",
+      "type": "function"
+    },
+    {
+      "id": "node_72be38fc",
+      "label": "remove_tag",
+      "type": "function"
+    },
+    {
+      "id": "node_9fdf8f50",
+      "label": "add_image",
+      "type": "function"
+    },
+    {
+      "id": "node_11a7d4c1",
+      "label": "get_discounted_price",
+      "type": "function"
+    },
+    {
+      "id": "node_c14e977e",
+      "label": "ProductFactory",
+      "type": "class"
+    },
+    {
+      "id": "node_892db8cd",
+      "label": "create_product",
+      "type": "function"
+    },
+    {
+      "id": "node_f70fcbbc",
+      "label": "create_simple_product",
+      "type": "function"
+    },
+    {
+      "id": "node_0a5369cd",
+      "label": "ProductRepository",
+      "type": "class"
+    },
+    {
+      "id": "node_dc1ff1d1",
+      "label": "__init__",
+      "type": "function"
+    },
+    {
+      "id": "node_d2857e00",
+      "label": "save",
+      "type": "function"
+    },
+    {
+      "id": "node_13063fb8",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_7ae7f665",
+      "label": "find_by_id",
+      "type": "function"
+    },
+    {
+      "id": "node_1dcaa894",
+      "label": "find_by_sku",
+      "type": "function"
+    },
+    {
+      "id": "node_0b4e56fd",
+      "label": "product_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_4ef50a6f",
+      "label": "find_by_category",
+      "type": "function"
+    },
+    {
+      "id": "node_c7d7cfa9",
+      "label": "find_available",
+      "type": "function"
+    },
+    {
+      "id": "node_552a2ec4",
+      "label": "find_by_name",
+      "type": "function"
+    },
+    {
+      "id": "node_2b94109b",
+      "label": "find_all",
+      "type": "function"
+    },
+    {
+      "id": "node_6d729314",
+      "label": "delete",
+      "type": "function"
+    },
+    {
+      "id": "node_6adff74c",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_d06c7d8e",
+      "label": "count",
+      "type": "function"
+    },
+    {
+      "id": "node_4fb72828",
+      "label": "get_low_stock_products",
+      "type": "function"
+    },
+    {
+      "id": "node_649b2fbd",
+      "label": "get_out_of_stock_products",
+      "type": "function"
+    },
+    {
+      "id": "node_ffc6b33e",
+      "label": "User",
+      "type": "class"
+    },
+    {
+      "id": "node_8356ca1f",
+      "label": "id",
+      "type": "variable"
+    },
+    {
+      "id": "node_bc024264",
+      "label": "username",
+      "type": "variable"
+    },
+    {
+      "id": "node_57bb80b8",
+      "label": "email",
+      "type": "variable"
+    },
+    {
+      "id": "node_54b2d8b7",
+      "label": "password_hash",
+      "type": "variable"
+    },
+    {
+      "id": "node_de983abf",
+      "label": "full_name",
+      "type": "variable"
+    },
+    {
+      "id": "node_4cbd368b",
+      "label": "phone",
+      "type": "variable"
+    },
+    {
+      "id": "node_b8200d20",
+      "label": "is_active",
+      "type": "variable"
+    },
+    {
+      "id": "node_7dd1d182",
+      "label": "is_admin",
+      "type": "variable"
+    },
+    {
+      "id": "node_dcf828e3",
+      "label": "created_at",
+      "type": "variable"
+    },
+    {
+      "id": "node_3acc7aef",
+      "label": "updated_at",
+      "type": "variable"
+    },
+    {
+      "id": "node_d15ad00f",
+      "label": "last_login",
+      "type": "variable"
+    },
+    {
+      "id": "node_96f0bca9",
+      "label": "to_dict",
+      "type": "function"
+    },
+    {
+      "id": "node_197a0562",
+      "label": "hash_password",
+      "type": "function"
+    },
+    {
+      "id": "node_5ff5daf7",
+      "label": "verify_password",
+      "type": "function"
+    },
+    {
+      "id": "node_54fd4612",
+      "label": "update_last_login",
+      "type": "function"
+    },
+    {
+      "id": "node_bf65a7d1",
+      "label": "UserFactory",
+      "type": "class"
+    },
+    {
+      "id": "node_fd810ff3",
+      "label": "create_user",
+      "type": "function"
+    },
+    {
+      "id": "node_55785c18",
+      "label": "password_hash",
+      "type": "variable"
+    },
+    {
+      "id": "node_cf7c8306",
+      "label": "create_admin_user",
+      "type": "function"
+    },
+    {
+      "id": "node_935ef6e9",
+      "label": "UserRepository",
+      "type": "class"
+    },
+    {
+      "id": "node_f8fcd570",
+      "label": "__init__",
+      "type": "function"
+    },
+    {
+      "id": "node_3e40936e",
+      "label": "save",
+      "type": "function"
+    },
+    {
+      "id": "node_b5ad657f",
+      "label": "user",
+      "type": "variable"
+    },
+    {
+      "id": "node_19a515b1",
+      "label": "find_by_id",
+      "type": "function"
+    },
+    {
+      "id": "node_44ceb7a1",
+      "label": "find_by_username",
+      "type": "function"
+    },
+    {
+      "id": "node_0242306a",
+      "label": "find_by_email",
+      "type": "function"
+    },
+    {
+      "id": "node_a69db510",
+      "label": "find_all",
+      "type": "function"
+    },
+    {
+      "id": "node_3fc1f35b",
+      "label": "delete",
+      "type": "function"
+    },
+    {
+      "id": "node_54f24962",
+      "label": "count",
+      "type": "function"
+    },
+    {
+      "id": "node_f191813a",
+      "label": "__all__",
+      "type": "variable"
+    },
+    {
+      "id": "node_f0cae28f",
+      "label": "OrderService",
+      "type": "class"
+    },
+    {
+      "id": "node_2e0c6a6b",
+      "label": "__init__",
+      "type": "function"
+    },
+    {
+      "id": "node_be798455",
+      "label": "db_manager",
+      "type": "variable"
+    },
+    {
+      "id": "node_73f48932",
+      "label": "create_order",
+      "type": "function"
+    },
+    {
+      "id": "node_0030e005",
+      "label": "validated_items",
+      "type": "variable"
+    },
+    {
+      "id": "node_61d72bfe",
+      "label": "total_amount",
+      "type": "variable"
+    },
+    {
+      "id": "node_c5ed2708",
+      "label": "product_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_d5afa18f",
+      "label": "quantity",
+      "type": "variable"
+    },
+    {
+      "id": "node_79a59a71",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_c294eb40",
+      "label": "order",
+      "type": "variable"
+    },
+    {
+      "id": "node_2175aa57",
+      "label": "shipping_address",
+      "type": "variable"
+    },
+    {
+      "id": "node_5180b3bb",
+      "label": "saved_order",
+      "type": "variable"
+    },
+    {
+      "id": "node_474a20f0",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_3b2ace78",
+      "label": "get_order_by_id",
+      "type": "function"
+    },
+    {
+      "id": "node_f573106f",
+      "label": "order",
+      "type": "variable"
+    },
+    {
+      "id": "node_ea3f37fd",
+      "label": "get_order_by_number",
+      "type": "function"
+    },
+    {
+      "id": "node_0b46d395",
+      "label": "order",
+      "type": "variable"
+    },
+    {
+      "id": "node_b7c0e24c",
+      "label": "get_user_orders",
+      "type": "function"
+    },
+    {
+      "id": "node_9b553094",
+      "label": "all_orders",
+      "type": "variable"
+    },
+    {
+      "id": "node_d6f63e4f",
+      "label": "total",
+      "type": "variable"
+    },
+    {
+      "id": "node_97f120ff",
+      "label": "start",
+      "type": "variable"
+    },
+    {
+      "id": "node_2e91b048",
+      "label": "end",
+      "type": "variable"
+    },
+    {
+      "id": "node_b83f6023",
+      "label": "orders",
+      "type": "variable"
+    },
+    {
+      "id": "node_47ddf02c",
+      "label": "update_order_status",
+      "type": "function"
+    },
+    {
+      "id": "node_5b02894b",
+      "label": "order",
+      "type": "variable"
+    },
+    {
+      "id": "node_a8885b3a",
+      "label": "valid_transitions",
+      "type": "variable"
+    },
+    {
+      "id": "node_c6d07aa5",
+      "label": "update_payment_status",
+      "type": "function"
+    },
+    {
+      "id": "node_e02a7f6d",
+      "label": "order",
+      "type": "variable"
+    },
+    {
+      "id": "node_4f2d2824",
+      "label": "cancel_order",
+      "type": "function"
+    },
+    {
+      "id": "node_5fe44af3",
+      "label": "order",
+      "type": "variable"
+    },
+    {
+      "id": "node_efa57617",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_a8e5642b",
+      "label": "get_pending_orders",
+      "type": "function"
+    },
+    {
+      "id": "node_934dc7b6",
+      "label": "orders",
+      "type": "variable"
+    },
+    {
+      "id": "node_d34192aa",
+      "label": "get_shipped_orders",
+      "type": "function"
+    },
+    {
+      "id": "node_500393fb",
+      "label": "orders",
+      "type": "variable"
+    },
+    {
+      "id": "node_bc55650e",
+      "label": "apply_discount",
+      "type": "function"
+    },
+    {
+      "id": "node_e9b093fa",
+      "label": "order",
+      "type": "variable"
+    },
+    {
+      "id": "node_9e04c0ba",
+      "label": "get_order_statistics",
+      "type": "function"
+    },
+    {
+      "id": "node_dd5a28a2",
+      "label": "orders",
+      "type": "variable"
+    },
+    {
+      "id": "node_8ef461b5",
+      "label": "orders",
+      "type": "variable"
+    },
+    {
+      "id": "node_35ca823b",
+      "label": "total_orders",
+      "type": "variable"
+    },
+    {
+      "id": "node_6a0382d9",
+      "label": "total_revenue",
+      "type": "variable"
+    },
+    {
+      "id": "node_1c75e266",
+      "label": "pending_orders",
+      "type": "variable"
+    },
+    {
+      "id": "node_4ec5a781",
+      "label": "shipped_orders",
+      "type": "variable"
+    },
+    {
+      "id": "node_ed2390bf",
+      "label": "delivered_orders",
+      "type": "variable"
+    },
+    {
+      "id": "node_d34d492b",
+      "label": "cancelled_orders",
+      "type": "variable"
+    },
+    {
+      "id": "node_8755d287",
+      "label": "ProductService",
+      "type": "class"
+    },
+    {
+      "id": "node_d0d8a4f0",
+      "label": "__init__",
+      "type": "function"
+    },
+    {
+      "id": "node_081b919a",
+      "label": "db_manager",
+      "type": "variable"
+    },
+    {
+      "id": "node_45f96d98",
+      "label": "create_product",
+      "type": "function"
+    },
+    {
+      "id": "node_a3d27d9f",
+      "label": "existing_product",
+      "type": "variable"
+    },
+    {
+      "id": "node_57c22cd4",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_f515f587",
+      "label": "saved_product",
+      "type": "variable"
+    },
+    {
+      "id": "node_4e0a2726",
+      "label": "get_product_by_id",
+      "type": "function"
+    },
+    {
+      "id": "node_4378ee0e",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_31c750d3",
+      "label": "get_product_by_sku",
+      "type": "function"
+    },
+    {
+      "id": "node_a077d53c",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_c7e35b0e",
+      "label": "update_product",
+      "type": "function"
+    },
+    {
+      "id": "node_a698ac00",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_a3d95d99",
+      "label": "updatable_fields",
+      "type": "variable"
+    },
+    {
+      "id": "node_1e61792c",
+      "label": "updated_product",
+      "type": "variable"
+    },
+    {
+      "id": "node_20197595",
+      "label": "update_stock",
+      "type": "function"
+    },
+    {
+      "id": "node_f5792258",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_2cbc8879",
+      "label": "updated_product",
+      "type": "variable"
+    },
+    {
+      "id": "node_34d97128",
+      "label": "delete_product",
+      "type": "function"
+    },
+    {
+      "id": "node_c5ceed1b",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_8eceff88",
+      "label": "success",
+      "type": "variable"
+    },
+    {
+      "id": "node_59cf02bb",
+      "label": "get_products_by_category",
+      "type": "function"
+    },
+    {
+      "id": "node_26eec926",
+      "label": "products",
+      "type": "variable"
+    },
+    {
+      "id": "node_7b1c43f7",
+      "label": "get_available_products",
+      "type": "function"
+    },
+    {
+      "id": "node_86c8fe1c",
+      "label": "products",
+      "type": "variable"
+    },
+    {
+      "id": "node_c579b15a",
+      "label": "search_products",
+      "type": "function"
+    },
+    {
+      "id": "node_b8b8b3b3",
+      "label": "products",
+      "type": "variable"
+    },
+    {
+      "id": "node_4b723670",
+      "label": "get_low_stock_products",
+      "type": "function"
+    },
+    {
+      "id": "node_79abec39",
+      "label": "products",
+      "type": "variable"
+    },
+    {
+      "id": "node_8d25ced1",
+      "label": "get_out_of_stock_products",
+      "type": "function"
+    },
+    {
+      "id": "node_fed71adb",
+      "label": "products",
+      "type": "variable"
+    },
+    {
+      "id": "node_3deedccc",
+      "label": "add_product_tag",
+      "type": "function"
+    },
+    {
+      "id": "node_0bd02877",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_449a9eb3",
+      "label": "remove_product_tag",
+      "type": "function"
+    },
+    {
+      "id": "node_0b2cd565",
+      "label": "product",
+      "type": "variable"
+    },
+    {
+      "id": "node_740c21e7",
+      "label": "success",
+      "type": "variable"
+    },
+    {
+      "id": "node_b9418085",
+      "label": "get_all_products",
+      "type": "function"
+    },
+    {
+      "id": "node_d9b70841",
+      "label": "all_products",
+      "type": "variable"
+    },
+    {
+      "id": "node_0d34e09a",
+      "label": "total",
+      "type": "variable"
+    },
+    {
+      "id": "node_a6ef7e60",
+      "label": "start",
+      "type": "variable"
+    },
+    {
+      "id": "node_32732b0e",
+      "label": "end",
+      "type": "variable"
+    },
+    {
+      "id": "node_76656f0b",
+      "label": "products",
+      "type": "variable"
+    },
+    {
+      "id": "node_8382cfa2",
+      "label": "UserService",
+      "type": "class"
+    },
+    {
+      "id": "node_6c01864e",
+      "label": "__init__",
+      "type": "function"
+    },
+    {
+      "id": "node_d60e24e8",
+      "label": "db_manager",
+      "type": "variable"
+    },
+    {
+      "id": "node_630e7efa",
+      "label": "register_user",
+      "type": "function"
+    },
+    {
+      "id": "node_9fb98abc",
+      "label": "existing_user",
+      "type": "variable"
+    },
+    {
+      "id": "node_6fbc63da",
+      "label": "existing_email",
+      "type": "variable"
+    },
+    {
+      "id": "node_ba7b9ad6",
+      "label": "user",
+      "type": "variable"
+    },
+    {
+      "id": "node_514d87af",
+      "label": "saved_user",
+      "type": "variable"
+    },
+    {
+      "id": "node_ed2db8fe",
+      "label": "token",
+      "type": "variable"
+    },
+    {
+      "id": "node_3f1064bc",
+      "label": "authenticate_user",
+      "type": "function"
+    },
+    {
+      "id": "node_cf410674",
+      "label": "user",
+      "type": "variable"
+    },
+    {
+      "id": "node_efd21588",
+      "label": "token",
+      "type": "variable"
+    },
+    {
+      "id": "node_2b3f3407",
+      "label": "get_user_by_id",
+      "type": "function"
+    },
+    {
+      "id": "node_175913d8",
+      "label": "user",
+      "type": "variable"
+    },
+    {
+      "id": "node_fde726be",
+      "label": "update_user",
+      "type": "function"
+    },
+    {
+      "id": "node_db598b84",
+      "label": "user",
+      "type": "variable"
+    },
+    {
+      "id": "node_51ae80e5",
+      "label": "updatable_fields",
+      "type": "variable"
+    },
+    {
+      "id": "node_a1925696",
+      "label": "existing_user",
+      "type": "variable"
+    },
+    {
+      "id": "node_b7435e9c",
+      "label": "updated_user",
+      "type": "variable"
+    },
+    {
+      "id": "node_ca4a19db",
+      "label": "change_password",
+      "type": "function"
+    },
+    {
+      "id": "node_c8a3e415",
+      "label": "user",
+      "type": "variable"
+    },
+    {
+      "id": "node_4dc76baf",
+      "label": "deactivate_user",
+      "type": "function"
+    },
+    {
+      "id": "node_6b21214c",
+      "label": "user",
+      "type": "variable"
+    },
+    {
+      "id": "node_36ac8685",
+      "label": "activate_user",
+      "type": "function"
+    },
+    {
+      "id": "node_16496198",
+      "label": "user",
+      "type": "variable"
+    },
+    {
+      "id": "node_00b09437",
+      "label": "get_all_users",
+      "type": "function"
+    },
+    {
+      "id": "node_838f8625",
+      "label": "all_users",
+      "type": "variable"
+    },
+    {
+      "id": "node_9d22d8eb",
+      "label": "total",
+      "type": "variable"
+    },
+    {
+      "id": "node_461c6299",
+      "label": "start",
+      "type": "variable"
+    },
+    {
+      "id": "node_236cf311",
+      "label": "end",
+      "type": "variable"
+    },
+    {
+      "id": "node_ec3b0fc5",
+      "label": "users",
+      "type": "variable"
+    },
+    {
+      "id": "node_9f259ee5",
+      "label": "search_users",
+      "type": "function"
+    },
+    {
+      "id": "node_1a726708",
+      "label": "all_users",
+      "type": "variable"
+    },
+    {
+      "id": "node_843274c1",
+      "label": "matched_users",
+      "type": "variable"
+    },
+    {
+      "id": "node_e4b643ca",
+      "label": "keyword_lower",
+      "type": "variable"
+    },
+    {
+      "id": "node_47fef9cf",
+      "label": "__all__",
+      "type": "variable"
+    },
+    {
+      "id": "node_1a0ea048",
+      "label": "AuthManager",
+      "type": "class"
+    },
+    {
+      "id": "node_cbe653e5",
+      "label": "__init__",
+      "type": "function"
+    },
+    {
+      "id": "node_aaedbaf0",
+      "label": "token_expiry_hours",
+      "type": "variable"
+    },
+    {
+      "id": "node_44911b49",
+      "label": "generate_token",
+      "type": "function"
+    },
+    {
+      "id": "node_47fc39e8",
+      "label": "now",
+      "type": "variable"
+    },
+    {
+      "id": "node_4c659ae0",
+      "label": "expiry",
+      "type": "variable"
+    },
+    {
+      "id": "node_08e59af6",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_9c6c489d",
+      "label": "token",
+      "type": "variable"
+    },
+    {
+      "id": "node_3f74e42f",
+      "label": "verify_token",
+      "type": "function"
+    },
+    {
+      "id": "node_f2e7eb72",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_006c9a65",
+      "label": "refresh_token",
+      "type": "function"
+    },
+    {
+      "id": "node_88b2dc6f",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_00a50006",
+      "label": "user_id",
+      "type": "variable"
+    },
+    {
+      "id": "node_4f4b4026",
+      "label": "additional_claims",
+      "type": "variable"
+    },
+    {
+      "id": "node_ca76b988",
+      "label": "generate_refresh_token",
+      "type": "function"
+    },
+    {
+      "id": "node_4389db5a",
+      "label": "now",
+      "type": "variable"
+    },
+    {
+      "id": "node_70243128",
+      "label": "expiry",
+      "type": "variable"
+    },
+    {
+      "id": "node_880c280b",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_f7a56d4b",
+      "label": "token",
+      "type": "variable"
+    },
+    {
+      "id": "node_528a35b0",
+      "label": "verify_refresh_token",
+      "type": "function"
+    },
+    {
+      "id": "node_0ad47a78",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_aa4ff4f7",
+      "label": "hash_password",
+      "type": "function"
+    },
+    {
+      "id": "node_20ccae5f",
+      "label": "salt",
+      "type": "variable"
+    },
+    {
+      "id": "node_acdc6a0a",
+      "label": "password_hash",
+      "type": "variable"
+    },
+    {
+      "id": "node_036696c2",
+      "label": "verify_password",
+      "type": "function"
+    },
+    {
+      "id": "node_f20ccf9b",
+      "label": "generate_password_reset_token",
+      "type": "function"
+    },
+    {
+      "id": "node_4608347b",
+      "label": "now",
+      "type": "variable"
+    },
+    {
+      "id": "node_d5c2e88e",
+      "label": "expiry",
+      "type": "variable"
+    },
+    {
+      "id": "node_c0110435",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_324eca58",
+      "label": "token",
+      "type": "variable"
+    },
+    {
+      "id": "node_87e7a4e6",
+      "label": "verify_password_reset_token",
+      "type": "function"
+    },
+    {
+      "id": "node_c9e5617c",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_be9c73e3",
+      "label": "generate_email_verification_token",
+      "type": "function"
+    },
+    {
+      "id": "node_3e746353",
+      "label": "now",
+      "type": "variable"
+    },
+    {
+      "id": "node_98d4427a",
+      "label": "expiry",
+      "type": "variable"
+    },
+    {
+      "id": "node_a010b2c3",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_2893f206",
+      "label": "token",
+      "type": "variable"
+    },
+    {
+      "id": "node_cce58afb",
+      "label": "verify_email_verification_token",
+      "type": "function"
+    },
+    {
+      "id": "node_abda944c",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_741eee71",
+      "label": "get_token_info",
+      "type": "function"
+    },
+    {
+      "id": "node_217d66b8",
+      "label": "payload",
+      "type": "variable"
+    },
+    {
+      "id": "node_1e96fa4e",
+      "label": "is_token_expired",
+      "type": "function"
+    },
+    {
+      "id": "node_af6ebc96",
+      "label": "info",
+      "type": "variable"
+    },
+    {
+      "id": "node_1840e2cb",
+      "label": "revoke_token",
+      "type": "function"
+    },
+    {
+      "id": "node_9a037bcb",
+      "label": "PermissionManager",
+      "type": "class"
+    },
+    {
+      "id": "node_ce711246",
+      "label": "__init__",
+      "type": "function"
+    },
+    {
+      "id": "node_cfee9624",
+      "label": "has_permission",
+      "type": "function"
+    },
+    {
+      "id": "node_1ec59fd9",
+      "label": "role_permissions",
+      "type": "variable"
+    },
+    {
+      "id": "node_a481824e",
+      "label": "own_permissions",
+      "type": "variable"
+    },
+    {
+      "id": "node_462bb270",
+      "label": "required_own_permission",
+      "type": "variable"
+    },
+    {
+      "id": "node_c01e0707",
+      "label": "get_user_permissions",
+      "type": "function"
+    },
+    {
+      "id": "node_51d28a03",
+      "label": "auth_manager",
+      "type": "variable"
+    },
+    {
+      "id": "node_93c632c8",
+      "label": "permission_manager",
+      "type": "variable"
+    },
+    {
+      "id": "node_104e3300",
+      "label": "DatabaseManager",
+      "type": "class"
+    },
+    {
+      "id": "node_e4e3d896",
+      "label": "__init__",
+      "type": "function"
+    },
+    {
+      "id": "node_3a3536bf",
+      "label": "database_path",
+      "type": "variable"
+    },
+    {
+      "id": "node_528f816c",
+      "label": "_initialize_database",
+      "type": "function"
+    },
+    {
+      "id": "node_bcab3c1e",
+      "label": "cursor",
+      "type": "variable"
+    },
+    {
+      "id": "node_a55769f8",
+      "label": "get_connection",
+      "type": "function"
+    },
+    {
+      "id": "node_fd2ab168",
+      "label": "execute_query",
+      "type": "function"
+    },
+    {
+      "id": "node_053c6b88",
+      "label": "cursor",
+      "type": "variable"
+    },
+    {
+      "id": "node_6276258e",
+      "label": "rows",
+      "type": "variable"
+    },
+    {
+      "id": "node_059cc182",
+      "label": "execute_update",
+      "type": "function"
+    },
+    {
+      "id": "node_604afc53",
+      "label": "cursor",
+      "type": "variable"
+    },
+    {
+      "id": "node_2ab161ff",
+      "label": "execute_insert",
+      "type": "function"
+    },
+    {
+      "id": "node_a0c2eee5",
+      "label": "cursor",
+      "type": "variable"
+    },
+    {
+      "id": "node_18f1f114",
+      "label": "execute_scalar",
+      "type": "function"
+    },
+    {
+      "id": "node_1e1e3e27",
+      "label": "cursor",
+      "type": "variable"
+    },
+    {
+      "id": "node_dcaeb8c6",
+      "label": "begin_transaction",
+      "type": "function"
+    },
+    {
+      "id": "node_2c065cb8",
+      "label": "commit_transaction",
+      "type": "function"
+    },
+    {
+      "id": "node_6f06f89f",
+      "label": "rollback_transaction",
+      "type": "function"
+    },
+    {
+      "id": "node_efefeff5",
+      "label": "table_exists",
+      "type": "function"
+    },
+    {
+      "id": "node_6cc403b3",
+      "label": "query",
+      "type": "variable"
+    },
+    {
+      "id": "node_528b9892",
+      "label": "result",
+      "type": "variable"
+    },
+    {
+      "id": "node_fd7e32ff",
+      "label": "get_table_info",
+      "type": "function"
+    },
+    {
+      "id": "node_ecdd71e4",
+      "label": "query",
+      "type": "variable"
+    },
+    {
+      "id": "node_9c907d56",
+      "label": "backup_database",
+      "type": "function"
+    },
+    {
+      "id": "node_a370f5f2",
+      "label": "source",
+      "type": "variable"
+    },
+    {
+      "id": "node_f0095533",
+      "label": "backup",
+      "type": "variable"
+    },
+    {
+      "id": "node_884f99a0",
+      "label": "get_database_size",
+      "type": "function"
+    },
+    {
+      "id": "node_fa7e6486",
+      "label": "get_table_count",
+      "type": "function"
+    },
+    {
+      "id": "node_8bc0459a",
+      "label": "health_check",
+      "type": "function"
+    },
+    {
+      "id": "node_6179b6ec",
+      "label": "cursor",
+      "type": "variable"
+    },
+    {
+      "id": "node_b7a9313a",
+      "label": "stats",
+      "type": "variable"
+    },
+    {
+      "id": "node_f6221ea8",
+      "label": "tables",
+      "type": "variable"
+    },
+    {
+      "id": "node_4db644b1",
+      "label": "close",
+      "type": "function"
+    },
+    {
+      "id": "node_2ff57909",
+      "label": "DatabasePool",
+      "type": "class"
+    },
+    {
+      "id": "node_cd410194",
+      "label": "__init__",
+      "type": "function"
+    },
+    {
+      "id": "node_9b1d7758",
+      "label": "database_path",
+      "type": "variable"
+    },
+    {
+      "id": "node_5dd19371",
+      "label": "max_connections",
+      "type": "variable"
+    },
+    {
+      "id": "node_47ef2a58",
+      "label": "get_connection",
+      "type": "function"
+    },
+    {
+      "id": "node_a76518cf",
+      "label": "conn",
+      "type": "variable"
+    },
+    {
+      "id": "node_c9cda0ab",
+      "label": "return_connection",
+      "type": "function"
+    },
+    {
+      "id": "node_265efc55",
+      "label": "close_all",
+      "type": "function"
+    },
+    {
+      "id": "node_cd9c2af7",
+      "label": "db_manager",
+      "type": "variable"
+    },
+    {
+      "id": "node_bf27661c",
+      "label": "__all__",
+      "type": "variable"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_25c4d1bd",
+      "source": "node_58cfb434",
+      "target": "node_aa788c6f",
+      "type": "calls"
+    },
+    {
+      "id": "edge_ac1c9d62",
+      "source": "node_58cfb434",
+      "target": "node_e9c1ae8a",
+      "type": "calls"
+    },
+    {
+      "id": "edge_b3869026",
+      "source": "node_58cfb434",
+      "target": "node_bf66755c",
+      "type": "calls"
+    },
+    {
+      "id": "edge_88cd1251",
+      "source": "node_58cfb434",
+      "target": "node_a44672f4",
+      "type": "calls"
+    },
+    {
+      "id": "edge_1ea25e2c",
+      "source": "node_58cfb434",
+      "target": "node_0e2286b9",
+      "type": "calls"
+    },
+    {
+      "id": "edge_ca8e1c4c",
+      "source": "node_10821a83",
+      "target": "node_58cfb434",
+      "type": "calls"
+    },
+    {
+      "id": "edge_dc6ed905",
+      "source": "node_066e6edf",
+      "target": "node_066e6edf",
+      "type": "calls"
+    },
+    {
+      "id": "edge_504faed8",
+      "source": "node_55662995",
+      "target": "node_55662995",
+      "type": "calls"
+    },
+    {
+      "id": "edge_96ad273c",
+      "source": "node_850fe5b5",
+      "target": "node_850fe5b5",
+      "type": "calls"
+    },
+    {
+      "id": "edge_e954df25",
+      "source": "node_a7468ff0",
+      "target": "node_a7468ff0",
+      "type": "calls"
+    },
+    {
+      "id": "edge_4f9113f3",
+      "source": "node_5f2ac724",
+      "target": "node_5f2ac724",
+      "type": "calls"
+    },
+    {
+      "id": "edge_2536ce0c",
+      "source": "node_385732b9",
+      "target": "node_385732b9",
+      "type": "calls"
+    },
+    {
+      "id": "edge_9c2c1398",
+      "source": "node_696af4ae",
+      "target": "node_696af4ae",
+      "type": "calls"
+    },
+    {
+      "id": "edge_b3f4c867",
+      "source": "node_7184e8f8",
+      "target": "node_7184e8f8",
+      "type": "calls"
+    },
+    {
+      "id": "edge_c1f13074",
+      "source": "node_69120068",
+      "target": "node_69120068",
+      "type": "calls"
+    },
+    {
+      "id": "edge_2492a9a5",
+      "source": "node_c4b6ac42",
+      "target": "node_c4b6ac42",
+      "type": "calls"
+    },
+    {
+      "id": "edge_c6b33e9d",
+      "source": "node_f7341d4a",
+      "target": "node_f7341d4a",
+      "type": "calls"
+    },
+    {
+      "id": "edge_a29370ea",
+      "source": "node_9e2fb1be",
+      "target": "node_0e7a568d",
+      "type": "calls"
+    },
+    {
+      "id": "edge_6e7dfb2b",
+      "source": "node_4b2356ba",
+      "target": "node_4b2356ba",
+      "type": "calls"
+    },
+    {
+      "id": "edge_31026838",
+      "source": "node_cbee084b",
+      "target": "node_0e7a568d",
+      "type": "calls"
+    },
+    {
+      "id": "edge_e8187089",
+      "source": "node_f85610a4",
+      "target": "node_0e7a568d",
+      "type": "calls"
+    },
+    {
+      "id": "edge_39020b40",
+      "source": "node_342de9b9",
+      "target": "node_e582cbe0",
+      "type": "calls"
+    },
+    {
+      "id": "edge_fc62722d",
+      "source": "node_730c452a",
+      "target": "node_0e7a568d",
+      "type": "calls"
+    },
+    {
+      "id": "edge_1897f1e7",
+      "source": "node_3701b5ad",
+      "target": "node_cbee084b",
+      "type": "calls"
+    },
+    {
+      "id": "edge_d3563a2c",
+      "source": "node_214df001",
+      "target": "node_142fb4da",
+      "type": "calls"
+    },
+    {
+      "id": "edge_9bee3048",
+      "source": "node_66534939",
+      "target": "node_142fb4da",
+      "type": "calls"
+    },
+    {
+      "id": "edge_2206996c",
+      "source": "node_bf91300c",
+      "target": "node_e582cbe0",
+      "type": "calls"
+    },
+    {
+      "id": "edge_783a581d",
+      "source": "node_88a0b10b",
+      "target": "node_d5c15935",
+      "type": "composes"
+    },
+    {
+      "id": "edge_3400b8bf",
+      "source": "node_88a0b10b",
+      "target": "node_b1de9dd0",
+      "type": "composes"
+    },
+    {
+      "id": "edge_050d1ff3",
+      "source": "node_f70fcbbc",
+      "target": "node_892db8cd",
+      "type": "calls"
+    },
+    {
+      "id": "edge_a8bbade2",
+      "source": "node_c7d7cfa9",
+      "target": "node_68d0deaf",
+      "type": "calls"
+    },
+    {
+      "id": "edge_4223020f",
+      "source": "node_04b7bb32",
+      "target": "node_007dabe9",
+      "type": "composes"
+    },
+    {
+      "id": "edge_bf0002f8",
+      "source": "node_04b7bb32",
+      "target": "node_a1b074da",
+      "type": "composes"
+    },
+    {
+      "id": "edge_c59c1296",
+      "source": "node_5ff5daf7",
+      "target": "node_197a0562",
+      "type": "calls"
+    },
+    {
+      "id": "edge_447a4761",
+      "source": "node_fd810ff3",
+      "target": "node_197a0562",
+      "type": "calls"
+    },
+    {
+      "id": "edge_bfff70df",
+      "source": "node_cf7c8306",
+      "target": "node_fd810ff3",
+      "type": "calls"
+    },
+    {
+      "id": "edge_73429609",
+      "source": "node_c6d07aa5",
+      "target": "node_c6d07aa5",
+      "type": "calls"
+    },
+    {
+      "id": "edge_55a06a1e",
+      "source": "node_bc55650e",
+      "target": "node_bc55650e",
+      "type": "calls"
+    },
+    {
+      "id": "edge_747713fd",
+      "source": "node_45f96d98",
+      "target": "node_45f96d98",
+      "type": "calls"
+    },
+    {
+      "id": "edge_0a1ff367",
+      "source": "node_4b723670",
+      "target": "node_4b723670",
+      "type": "calls"
+    },
+    {
+      "id": "edge_37fc1223",
+      "source": "node_8d25ced1",
+      "target": "node_8d25ced1",
+      "type": "calls"
+    },
+    {
+      "id": "edge_6ef5d775",
+      "source": "node_006c9a65",
+      "target": "node_3f74e42f",
+      "type": "calls"
+    },
+    {
+      "id": "edge_fc6e25ae",
+      "source": "node_006c9a65",
+      "target": "node_44911b49",
+      "type": "calls"
+    },
+    {
+      "id": "edge_b48d3cd3",
+      "source": "node_036696c2",
+      "target": "node_aa4ff4f7",
+      "type": "calls"
+    },
+    {
+      "id": "edge_2f9901c7",
+      "source": "node_1e96fa4e",
+      "target": "node_741eee71",
+      "type": "calls"
+    },
+    {
+      "id": "edge_5e3bd67e",
+      "source": "node_e4e3d896",
+      "target": "node_528f816c",
+      "type": "calls"
+    },
+    {
+      "id": "edge_8dfff56d",
+      "source": "node_528f816c",
+      "target": "node_a55769f8",
+      "type": "calls"
+    },
+    {
+      "id": "edge_30a79408",
+      "source": "node_fd2ab168",
+      "target": "node_a55769f8",
+      "type": "calls"
+    },
+    {
+      "id": "edge_163fb155",
+      "source": "node_059cc182",
+      "target": "node_a55769f8",
+      "type": "calls"
+    },
+    {
+      "id": "edge_66b5ca76",
+      "source": "node_2ab161ff",
+      "target": "node_a55769f8",
+      "type": "calls"
+    },
+    {
+      "id": "edge_85649091",
+      "source": "node_18f1f114",
+      "target": "node_a55769f8",
+      "type": "calls"
+    },
+    {
+      "id": "edge_e499823e",
+      "source": "node_dcaeb8c6",
+      "target": "node_a55769f8",
+      "type": "calls"
+    },
+    {
+      "id": "edge_80a48e85",
+      "source": "node_2c065cb8",
+      "target": "node_a55769f8",
+      "type": "calls"
+    },
+    {
+      "id": "edge_d8689dba",
+      "source": "node_6f06f89f",
+      "target": "node_a55769f8",
+      "type": "calls"
+    },
+    {
+      "id": "edge_61b790a1",
+      "source": "node_efefeff5",
+      "target": "node_fd2ab168",
+      "type": "calls"
+    },
+    {
+      "id": "edge_b0ede6ef",
+      "source": "node_fd7e32ff",
+      "target": "node_fd2ab168",
+      "type": "calls"
+    },
+    {
+      "id": "edge_83af903c",
+      "source": "node_9c907d56",
+      "target": "node_4db644b1",
+      "type": "calls"
+    },
+    {
+      "id": "edge_6ecfd340",
+      "source": "node_fa7e6486",
+      "target": "node_18f1f114",
+      "type": "calls"
+    },
+    {
+      "id": "edge_191be0c5",
+      "source": "node_8bc0459a",
+      "target": "node_a55769f8",
+      "type": "calls"
+    },
+    {
+      "id": "edge_81246957",
+      "source": "node_8bc0459a",
+      "target": "node_884f99a0",
+      "type": "calls"
+    },
+    {
+      "id": "edge_9c27ce56",
+      "source": "node_8bc0459a",
+      "target": "node_efefeff5",
+      "type": "calls"
+    },
+    {
+      "id": "edge_8bcddfef",
+      "source": "node_8bc0459a",
+      "target": "node_fa7e6486",
+      "type": "calls"
+    },
+    {
+      "id": "edge_c86341f5",
+      "source": "node_4db644b1",
+      "target": "node_4db644b1",
+      "type": "calls"
+    },
+    {
+      "id": "edge_13b7b784",
+      "source": "node_c9cda0ab",
+      "target": "node_4db644b1",
+      "type": "calls"
+    },
+    {
+      "id": "edge_8761dc2d",
+      "source": "node_265efc55",
+      "target": "node_4db644b1",
+      "type": "calls"
+    }
+  ],
+  "metadata": {
+    "node_count": 641,
+    "edge_count": 65
+  }
+}

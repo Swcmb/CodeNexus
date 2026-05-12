@@ -1,0 +1,17 @@
+# 电商系统依赖包
+
+# 核心依赖
+pydantic>=2.0.0
+click>=8.0.0
+rich>=13.0.0
+
+# 认证和安全
+PyJWT>=2.8.0
+cryptography>=41.0.0
+
+# 数据库
+sqlite3
+
+# 工具库
+python-dateutil>=2.8.0
+typing-extensions>=4.5.0
