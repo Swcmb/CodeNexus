@@ -39,10 +39,10 @@ class TestBackupManager:
             assert "components" in metadata
             assert metadata["components"]["database"] is True
     
-    @patch('src.codenexus.utils.backup_recovery.BackupManager._backup_database')
-    @patch('src.codenexus.utils.backup_recovery.BackupManager._backup_configuration')
-    @patch('src.codenexus.utils.backup_recovery.BackupManager._backup_logs')
-    @patch('src.codenexus.utils.backup_recovery.BackupManager._backup_user_data')
+    @patch('src.codeweaver.utils.backup_recovery.BackupManager._backup_database')
+    @patch('src.codeweaver.utils.backup_recovery.BackupManager._backup_configuration')
+    @patch('src.codeweaver.utils.backup_recovery.BackupManager._backup_logs')
+    @patch('src.codeweaver.utils.backup_recovery.BackupManager._backup_user_data')
     def test_create_backup(self, mock_user_data, mock_logs, mock_config, mock_db):
         """测试创建备份"""
         with tempfile.TemporaryDirectory() as temp_dir:

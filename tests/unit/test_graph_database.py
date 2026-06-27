@@ -327,7 +327,7 @@ class TestGraphDatabase:
     
     def test_initialization_without_neo4j(self):
         """测试在没有Neo4j驱动时的初始化"""
-        with patch('src.codenexus.database.graph_database.NEO4J_AVAILABLE', False):
+        with patch('src.codeweaver.database.graph_database.NEO4J_AVAILABLE', False):
             with pytest.raises(GraphDatabaseError) as exc_info:
                 GraphDatabase()
             
@@ -335,7 +335,7 @@ class TestGraphDatabase:
     
     def test_initialization_with_neo4j(self):
         """测试在有Neo4j驱动时的初始化"""
-        with patch('src.codenexus.database.graph_database.NEO4J_AVAILABLE', True):
+        with patch('src.codeweaver.database.graph_database.NEO4J_AVAILABLE', True):
             db = GraphDatabase()
             assert db.uri == "bolt://localhost:7687"
             assert db.username == "neo4j"
@@ -344,7 +344,7 @@ class TestGraphDatabase:
     
     def test_custom_connection_parameters(self):
         """测试自定义连接参数"""
-        with patch('src.codenexus.database.graph_database.NEO4J_AVAILABLE', True):
+        with patch('src.codeweaver.database.graph_database.NEO4J_AVAILABLE', True):
             db = GraphDatabase(
                 uri="bolt://custom:7687",
                 username="custom_user",

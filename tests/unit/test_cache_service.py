@@ -5,18 +5,26 @@
 import json
 import pytest
 from unittest.mock import Mock, patch
-import redis
+
+# Redis 可选导入，与 cache_service.py 保持一致
+try:
+    import redis as _redis_module
+    REDIS_AVAILABLE = True
+except ImportError:
+    _redis_module = None  # type: ignore[assignment]
+    REDIS_AVAILABLE = False
 
 from src.codenexus.services.cache_service import CacheService, SmartCacheStrategy
 
 
 class TestCacheService:
     """缓存服务测试类"""
-    
+
+    @pytest.mark.skipif(not REDIS_AVAILABLE, reason="redis 未安装")
     def test_cache_service_disabled_when_redis_unavailable(self):
         """测试Redis不可用时缓存服务被禁用"""
         with patch('redis.Redis') as mock_redis:
-            mock_redis.return_value.ping.side_effect = redis.RedisError("Connection failed")
+            mock_redis.return_value.ping.side_effect = _redis_module.RedisError("Connection failed")
             
             cache_service = CacheService()
             
@@ -24,6 +32,7 @@ class TestCacheService:
             assert cache_service.get("test_key") is None
             assert not cache_service.set("test_key", "test_value")
     
+    @pytest.mark.skipif(not REDIS_AVAILABLE, reason="redis 未安装")
     def test_cache_service_basic_operations(self):
         """测试缓存服务基本操作"""
         with patch('redis.Redis') as mock_redis:
@@ -45,6 +54,7 @@ class TestCacheService:
             assert args[1] == 3600  # 默认TTL
             assert json.loads(args[2]) == {"data": "test"}
     
+    @pytest.mark.skipif(not REDIS_AVAILABLE, reason="redis 未安装")
     def test_cache_service_get_operations(self):
         """测试缓存获取操作"""
         with patch('redis.Redis') as mock_redis:

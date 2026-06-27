@@ -25,7 +25,7 @@ class TestDocumentationGenerator:
     @pytest.fixture
     def doc_generator(self, mock_ai_layer):
         """创建文档生成器实例"""
-        with patch('src.codenexus.ai.documentation_generator.markdown.Markdown'):
+        with patch('src.codeweaver.ai.documentation_generator.markdown.Markdown'):
             return DocumentationGenerator(mock_ai_layer)
     
     @pytest.fixture

@@ -1,0 +1,48 @@
+# Git
+.git
+.gitignore
+
+# Python caches
+__pycache__
+*.pyc
+*.pyo
+.mypy_cache
+.pytest_cache
+.hypothesis
+*.egg-info
+
+# 虚拟环境
+.venv
+venv
+env
+
+# IDE
+.idea
+.vscode
+
+# 测试和文档（容器内不需要）
+tests/
+examples/
+docs/
+sample_project/
+新建文件夹/
+analysis/
+test_analysis/
+test_docs/
+
+# 构建产物
+build/
+dist/
+*.egg
+
+# 日志和数据
+logs/
+*.db
+*.sqlite
+
+# 临时文件
+test_graph_export.json
+test_tmp_cmd.sh
+knowledge_graph.json
+*.md
+!requirements.txt

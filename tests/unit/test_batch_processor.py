@@ -178,8 +178,8 @@ class TestProgressTracker:
         tracker.update(80)
         assert tracker.processed_items == 80
     
-    @patch('src.codenexus.services.batch_processor.logger')
-    @patch('src.codenexus.services.batch_processor.time')
+    @patch('src.codeweaver.services.batch_processor.logger')
+    @patch('src.codeweaver.services.batch_processor.time')
     def test_progress_logging(self, mock_time, mock_logger):
         """测试进度日志记录"""
         # 设置时间模拟
@@ -213,7 +213,7 @@ class TestAsyncBatchProcessor:
             assert results == []
             assert processor.stats.total_files == 0
     
-    @patch('src.codenexus.services.batch_processor.process_file_chunk')
+    @patch('src.codeweaver.services.batch_processor.process_file_chunk')
     async def test_process_project_parallel_with_files(self, mock_process_chunk):
         """测试并行处理项目文件"""
         # 创建一个真实的解析结果而不是mock
@@ -266,7 +266,7 @@ class TestAsyncBatchProcessor:
             temp_path = Path(temp_dir)
             (temp_path / "test.py").write_text("print('test')")
             
-            with patch('src.codenexus.services.batch_processor.process_file_chunk') as mock_process:
+            with patch('src.codeweaver.services.batch_processor.process_file_chunk') as mock_process:
                 mock_process.return_value = []
                 
                 await processor.process_project_parallel(

@@ -1,0 +1,59 @@
+# codenexus Docker Compose 配置
+# 用于容器化部署 CodeNexus API 服务
+# 使用方式：
+#   1. 复制 .env.example 为 .env 并填写配置
+#   2. docker compose up -d        # 启动服务
+#   3. docker compose logs -f      # 查看日志
+#   4. docker compose down         # 停止服务
+
+services:
+  # ==================== CodeNexus API 服务 ====================
+  codenexus:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: codenexus-api
+    restart: unless-stopped
+    ports:
+      # 主机端口:容器端口（从 .env 读取，默认 8000）
+      - "${SERVER_PORT:-8000}:8000"
+    env_file:
+      # 挂载 .env 文件，所有环境变量自动注入容器
+      - .env
+    environment:
+      # 覆盖 .env 中的默认值，适配容器内运行
+      - SERVER_HOST=0.0.0.0
+      - SERVER_PORT=8000
+      - SERVER_WORKERS=${SERVER_WORKERS:-1}
+    volumes:
+      # 挂载日志目录，持久化日志数据
+      - codenexus-logs:/app/logs
+      # 挂载示例项目（只读），方便容器内测试
+      - ./sample_project:/app/sample_project:ro
+    healthcheck:
+      # 健康检查：每 30 秒检测 API 是否存活
+      test: ["CMD", "python", "-c", "import httpx; httpx.get('http://localhost:8000/api/v1/health').raise_for_status()"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    deploy:
+      resources:
+        limits:
+          # 内存限制（解析大项目时需要足够内存）
+          memory: 2G
+        reservations:
+          memory: 512M
+    networks:
+      - codenexus-net
+
+# ==================== 持久化卷 ====================
+volumes:
+  codenexus-logs:
+    name: codenexus-logs
+
+# ==================== 网络 ====================
+networks:
+  codenexus-net:
+    name: codenexus-net
+    driver: bridge

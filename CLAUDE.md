@@ -23,7 +23,7 @@
 
 ```
 D:/SmartCode/
-├── src/codeweaver/               # 核心源码（包名 codeweaver）
+├── src/codenexus/                # 核心源码（包名 codenexus）
 │   ├── __init__.py               # 版本 0.1.0
 │   ├── __main__.py               # python -m codenexus 入口
 │   ├── cli.py                    # Click CLI（parse/docs/analyze/qa/health/graph）
@@ -113,8 +113,8 @@ python -m codenexus analyze -f <file> -c "变更描述"      # 影响分析
 python -m codenexus graph-export -o <output>             # 导出图谱
 
 # 启动 API 服务
-python -m src.codeweaver.api.main                        # 开发模式（端口 8000）
-uvicorn src.codeweaver.api.app:create_app --port 8000    # 生产模式
+python -m codenexus.api.main                              # 开发模式（端口 8000）
+uvicorn codenexus.api.app:create_app --factory --port 8000 # 生产模式
 
 # 测试
 pytest                                         # 全量测试（含覆盖率报告）
@@ -122,7 +122,7 @@ pytest tests/unit/                             # 仅单元测试
 pytest tests/integration/                      # 仅集成测试
 pytest tests/property/                         # 仅属性测试
 pytest -m unit                                 # 按标记运行
-pytest --cov=src/codeweaver --cov-report=html  # HTML 覆盖率报告
+pytest --cov=src/codenexus --cov-report=html   # HTML 覆盖率报告
 
 # 代码质量
 black src/ tests/                              # 格式化
@@ -138,7 +138,7 @@ mypy src/                                      # 类型检查
 3. **异常处理**：使用 `exceptions.py` 中的自定义异常层次，业务层抛 `codenexusError` 子类，API 层抛 `codenexusException`。
 4. **异步优先**：服务层（`services/`）和 AI 层主要使用 `async/await`，CLI 层通过 `asyncio.run()` 桥接。
 5. **测试分类**：`unit`（纯逻辑）、`integration`（API 端点）、`property`（hypothesis 属性测试），通过 pytest marker 区分。
-6. **命名注意**：pyproject.toml 中项目名为 `codenexus`，但源码包目录为 `src/codeweaver/`，CLI 入口点映射为 `codenexus.cli:cli`，`__main__.py` 中引用 `.cli`。新增模块时请注意当前包路径。
+6. **命名一致**：源码包目录为 `src/codenexus/`，CLI 入口点为 `codenexus.cli:cli`。新增模块时请使用 `codenexus` 作为包路径。
 7. **中文注释**：关键逻辑和复杂代码段添加中文注释。
 8. **代码格式**：black（行宽 88）、isort（profile=black）、mypy strict 模式。
 

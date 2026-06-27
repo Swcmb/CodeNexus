@@ -173,3 +173,20 @@ neo4j/
 
 # Redis
 dump.rdb
+
+# 项目生成文件（运行时产物）
+analysis/
+test_analysis/
+test_docs/
+test_graph_export.json
+test_tmp_cmd.sh
+knowledge_graph.json
+logs/errors.jsonl
+
+# 课程资料（不纳入版本控制）
+新建文件夹/
+
+# egg-info
+src/codeweaver.egg-info/
+src/codenexus.egg-info/
+*.egg-info/

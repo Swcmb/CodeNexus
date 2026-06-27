@@ -1,0 +1,50 @@
+# ============================================================================
+# Flake8 配置文件
+# 与 black (line-length=88) 和 isort (profile="black") 保持一致
+# ============================================================================
+
+[flake8]
+# 行长度与 black 对齐 (pyproject.toml [tool.black] line-length = 88)
+max-line-length = 88
+
+# E203: black 在冒号前添加空格 (pep8 标准不允许, 但 black 的风格)
+# E266: 多个 # 注释 (black 格式化后可能出现)
+# W503: 二元运算符前换行 (pep8 推荐, black 也使用此风格)
+# W504: 二元运算符后换行 (与 W503 冲突, 关闭其一)
+# E501: 行过长 (已通过 max-line-length 控制, 字符串和注释可能超长)
+extend-ignore = E203, W503, W501
+
+# 每行最多允许的嵌套深度
+max-complexity = 10
+
+# 排除目录: 构建产物、缓存、虚拟环境等
+exclude =
+    .git,
+    .hg,
+    .mypy_cache,
+    .pytest_cache,
+    .tox,
+    .venv,
+    __pycache__,
+    build,
+    dist,
+    *.egg-info,
+    .eggs,
+    .eggs-info,
+    node_modules,
+    _build,
+    docs/_build
+
+# 按文件类型忽略特定规则
+per-file-ignores =
+    # 测试文件: 允许未使用的导入 (F401) 和较宽松的断言
+    tests/*:F401,F811
+    test_*/*:F401,F811
+    conftest.py:F401
+    # 示例文件: 放宽部分限制
+    examples/*:F401,F841
+
+# 统计输出格式
+count = true
+show-source = true
+statistics = true

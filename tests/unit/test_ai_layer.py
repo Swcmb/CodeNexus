@@ -64,7 +64,7 @@ class TestAILayer:
     @pytest.mark.asyncio
     async def test_initialization_success(self, ai_layer):
         """测试成功初始化"""
-        with patch('src.codenexus.ai.ai_layer.AsyncOpenAI') as mock_openai:
+        with patch('src.codeweaver.ai.ai_layer.AsyncOpenAI') as mock_openai:
             mock_client = AsyncMock()
             mock_openai.return_value = mock_client
             
